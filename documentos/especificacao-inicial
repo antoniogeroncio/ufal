@@ -1,0 +1,46 @@
+Usuário
+	ID
+	Nome
+	E-mail
+	Senha
+	Tipo Usuário (Professor, Profissional e Aluno)
+Tag
+	ID
+	Descrição
+Estilo Arquitetural
+	ID
+	NOME
+	DESCRICÃO
+ID_USUARIO
+Projeto
+	ID
+	NOME
+	DESCRIÇÃO
+	ID_LINGUAGUEM
+	ID_USUARIO
+	CODIGO_FONTE
+Linguagem
+	ID
+	DESCRIÇÃO
+Requisitos de Qualidade
+	ID
+	DESCRIÇÃO
+Avaliação
+	Simples
+		ID
+		OPINIÃO (PATTEN, ANTIPATTEN)
+	Detalhada
+		ID_ESTILO
+		NOTA
+
+
+Comentário
+	ID
+	DESCRICAO
+	ID_USUARIO
+	ID_PROJETO
+Mensagem
+	ID
+	DESCRICAO
+	ID_USUARIO_R
+	ID_USUARIO_D
