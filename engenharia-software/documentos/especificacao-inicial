@@ -5,7 +5,7 @@ Usuário
 	Senha
 	Tipo Usuário (Professor, Profissional e Aluno)
 Tag
-	ID
+	ID  //nesse caso o id da tag é o nome dela!?
 	Descrição
 Estilo Arquitetural
 	ID
@@ -32,6 +32,7 @@ Avaliação
 	Detalhada
 		ID_ESTILO
 		NOTA
+		//DESCRIÇÂO/AVALIAÇÂO DETALHADA, deveria ter?
 
 
 Comentário
@@ -39,6 +40,7 @@ Comentário
 	DESCRICAO
 	ID_USUARIO
 	ID_PROJETO
+	// como o comentário pode ser sobre o projeto e/ou estilo não deveria ter ID_ESTILO, também? 
 Mensagem
 	ID
 	DESCRICAO
