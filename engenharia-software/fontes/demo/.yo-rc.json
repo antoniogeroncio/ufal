@@ -1,0 +1,37 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "br.ufal.ic.arq",
+            "nativeLanguage": "pt-br"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "arq",
+        "packageName": "br.ufal.ic.arq",
+        "packageFolder": "br/ufal/ic/arq",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "no",
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "YWUxODE3NWNhZjQxOWJkZmVkMTBlY2E1Y2IxNzc2ZDE2NDk0Y2I4YWI0MzcyZTIwMmVhNTBjNTM5NWMyOWZkMmJmNGRjOTIyZDE2Njc0MmVlNWE0OTI4OWUwNzRiZTdkMWY4NTM3ZTIxNjAwMzU5YzYzZmM5MzkxMDJhMWE0MWU=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["cucumber"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "pt-br",
+        "languages": ["pt-br", "en"]
+    }
+}
