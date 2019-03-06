@@ -1,14 +1,14 @@
-package br.ufal.ic.ppgi.tf.conectorSimples;
+package br.ufal.ic.ppgi.tf.conectoremprestimolimite;
 
 import br.ufal.aracomp.cosmos.emprestimo.spec.dt.UsuarioDT;
 import br.ufal.aracomp.cosmos.emprestimo.spec.req.ILimiteReq;
 import br.ufal.aracomp.cosmos.limite.spec.dt.ClienteDT;
 import br.ufal.aracomp.cosmos.limite.spec.prov.ILimiteOps;
 
-public class ConectorSimples implements ILimiteReq{
+public class ConectorEmprestimoLimite implements ILimiteReq{
 	private ILimiteOps limite;
 	
-	public ConectorSimples(ILimiteOps limite) {
+	public ConectorEmprestimoLimite(ILimiteOps limite) {
 		this.limite = limite;
 	}
 	
